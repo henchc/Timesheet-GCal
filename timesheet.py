@@ -13,6 +13,10 @@ from dateutil.parser import parse
 import csv
 import subprocess
 
+
+# Skeleton code from
+# https://developers.google.com/google-apps/calendar/quickstart/python
+
 try:
     import argparse
     parser = argparse.ArgumentParser(parents=[tools.argparser])
