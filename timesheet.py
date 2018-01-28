@@ -131,7 +131,7 @@ def main():
                 seconds = delta.seconds
                 minutes = seconds / 60
                 hours = minutes / 60
-                categories = re.findall(r'\{.*\}', description)
+                categories = re.findall(r'\{.+?\}', description)
 
                 if len(categories) > 0:
                     for c in categories:
